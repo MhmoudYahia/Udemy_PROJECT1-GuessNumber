@@ -1,3 +1,4 @@
+"use strict";
 // random number between 1 & 20
 let myNumber = Math.trunc(Math.random() * 20 + 1);
 
