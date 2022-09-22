@@ -6,7 +6,7 @@ let myNumber = Math.trunc(Math.random() * 20 + 1);
 const span1 = document.querySelector(".game-data span:nth-of-type(1)");
 const span2 = document.querySelector(".game-data span:nth-of-type(2)");
 const span3 = document.querySelector(".game-data span:nth-of-type(3)");
-console.log(+span2.innerHTML + 1);
+
 //select check button
 const submitButton = document.querySelector("input[type=submit]");
 
