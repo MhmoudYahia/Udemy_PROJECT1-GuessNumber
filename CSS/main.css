@@ -1,0 +1,83 @@
+* {
+  font-family: "Press Start 2P", cursive;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+body.true {
+  background-color: rgb(140, 218, 21);
+}
+header {
+  padding: 10px;
+}
+header button {
+  padding: 15px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+header button:hover {
+  box-shadow: 0 0 8px 3px white;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+header span {
+  float: right;
+  /* display: block; */
+  padding: 10px;
+  color: white;
+}
+hr {
+  margin: 100px 0;
+  height: 5px;
+  background-color: white;
+}
+.result {
+  position: absolute;
+  left: 50%;
+  top: 185px;
+  transform: translateX(-50%);
+  background-color: white;
+  padding: 16px 55px;
+  font-size: xxx-large;
+  border-radius: 7px;
+}
+.result.true {
+  box-shadow: 0 0 10px 5px white;
+}
+.container {
+  display: flex;
+}
+.container .game-form {
+  flex-basis: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.game-data {
+  color: white;
+}
+.container .game-data {
+  flex-basis: 40%;
+}
+.container input {
+  display: block;
+  max-width: 200px;
+  padding: 14px;
+  border-radius: 8px;
+  outline: 0;
+  border: 3px solid white;
+  background-color: transparent;
+  color: white;
+  margin-bottom: 25px;
+}
+.container input[type="number"]:focus {
+  box-shadow: 0 0 10px 5px white;
+}
+.game-form input[type="submit"]:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px 5px white;
+}
