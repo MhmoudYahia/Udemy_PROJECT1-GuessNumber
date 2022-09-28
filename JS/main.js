@@ -49,7 +49,7 @@ submitButton.addEventListener("click", () => {
 });
 
 // select again button
-againButton = document.querySelector("header button");
+const againButton = document.querySelector("header button");
 
 // restart the game
 againButton.addEventListener("click", () => {
